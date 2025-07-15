@@ -1,4 +1,4 @@
-# 🚀 Crypto Prices & Withdrawal Fees Dashboard
+# Crypto Prices & Withdrawal Fees Dashboard
 
 A Streamlit dashboard to check cryptocurrency prices and withdrawal fees on Gate.io and Binance, with multilingual support (Spanish and English).
 
