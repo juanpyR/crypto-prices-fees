@@ -22,32 +22,41 @@ A Streamlit dashboard to check cryptocurrency prices and withdrawal fees on Gate
 
 ## 📁 Project Structure
 
+```plaintext
 ├── app.py
-Main file that runs the Streamlit app.
-Handles the interface, coin input, language switching, and price & fees display.
-
 ├── funciones.py
+├── lang_texts.py
+├── app_core.py
+├── crypto_handler.py
+├── exchange_manager.py
+├── display_handler.py
+├── language_handler.py
+└── requirements.txt
+app.py
+Main file that runs the Streamlit app. Handles the interface, coin input, language switching, and price & fees display.
+
+funciones.py
 Contains functions to consume APIs, process data, format prices, handle languages, and render styled HTML tables.
 
-├── lang_texts.py
+lang_texts.py
 Dictionary with translated texts for Spanish and English used throughout the app.
 
-├── app_core.py
+app_core.py
 Core of the application coordinating modules.
 
-├── crypto_handler.py
+crypto_handler.py
 Module responsible for fetching prices and fees from APIs.
 
-├── exchange_manager.py
+exchange_manager.py
 Manages fetching and unifying data from exchanges.
 
-├── display_handler.py
+display_handler.py
 Handles rendering visual elements in Streamlit.
 
-├── language_handler.py
+language_handler.py
 Module for language management.
 
-└── requirements.txt
+requirements.txt
 List of dependencies to install.
 
 Important note:
