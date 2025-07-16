@@ -31,6 +31,7 @@ A Streamlit dashboard to check cryptocurrency prices and withdrawal fees on Gate
 ├── exchange_manager.py
 ├── display_handler.py
 ├── language_handler.py
+├── exchanges_config.py
 └── requirements.txt
 
 app.py  
@@ -60,8 +61,8 @@ Module for language management.
 requirements.txt
 List of dependencies to install.
 
-Important note:
-The exchanges_config.py file containing specific exchange configurations is private and not included in this repository
+exchanges_config.py
+Information of exchanges
 
 ✅ Requirements
 Python 3.8 or higher
