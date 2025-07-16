@@ -33,7 +33,7 @@ A Streamlit dashboard to check cryptocurrency prices and withdrawal fees on Gate
 ├── language_handler.py
 └── requirements.txt
 
-app.py
+`app.py`
 Main file that runs the Streamlit app. Handles the interface, coin input, language switching, and price & fees display.
 
 funciones.py
