@@ -1,0 +1,40 @@
+TEXTOS = {
+    "es": {
+        "titulo": "💹 Consulta de Precio y Fees de Retiro",
+        "texto_input": "🔎 Ingresa la moneda (ej. ETH, USDC, TRX)",
+        "header_precios": "📈 Precios para {moneda}/USDT en el mercado al contado",
+        "header_fees": "💸 Fees de retiro de {moneda}",
+        "mensaje_par_no_disp": "{}: Par no disponible",
+        "mensaje_precio": "{}: {} USDT",
+        "mensaje_fees_no": "No se encontraron fees para {} en {}",
+        "boton_cambiar_idioma": "🌐 Cambiar idioma",
+        "mensaje_sin_precio_usdt": "No se muestra el precio de USDT porque es la stablecoin base. Pero sí puedes ver los fees de retiro.",
+        "header_donacion": "🙏 ¿Quieres apoyar este proyecto?",
+        "texto_donacion": "USDT (Solana) para donaciones:",
+        "direccion_donacion": "En8fTwHwuMEuXkGGFgFSVZNCHn2TDfWd7PJgA1QpgpY5",
+        "mensaje_donacion": "Selecciona y copia la dirección manualmente para donar. Gracias por tu apoyo!",
+        "boton_buscar": "Buscar",
+        "titulo_minimos_fees": "🥇 Fees más bajos por Exchange en la tabla",
+        "mensaje_minimo_fee": "🔹 {}: mínimo de {} {} en {}",
+        "mensaje_no_datos": "⚠️ {}: no hay datos disponibles"
+    },
+    "en": {
+        "titulo": "💹 Price and Withdrawal Fees Checker",
+        "texto_input": "🔎 Enter the coin (e.g. ETH, USDC, TRX)",
+        "header_precios": "📈 Prices for {moneda}/USDT in Spot market",
+        "header_fees": "💸 Withdrawal fees for {moneda}",
+        "mensaje_par_no_disp": "{}: Pair not available",
+        "mensaje_precio": "{}: {} USDT",
+        "mensaje_fees_no": "No fees found for {} in {}",
+        "boton_cambiar_idioma": "🌐 Change Language",
+        "mensaje_sin_precio_usdt": "USDT price is not shown because it is the base stablecoin. However, you can see the withdrawal fees.",
+        "header_donacion": "🙏 Would you like to support this project?",
+        "texto_donacion": "USDT (Solana) for donations:",
+        "direccion_donacion": "En8fTwHwuMEuXkGGFgFSVZNCHn2TDfWd7PJgA1QpgpY5",
+        "mensaje_donacion": "Please select and copy the address manually to donate. Thank you for your support!",
+        "boton_buscar": "Search",
+        "titulo_minimos_fees": "🥇 Lowest Fees by Exchange in the table",
+        "mensaje_minimo_fee": "🔹 {}: minimum fee of {} {} on {}",
+        "mensaje_no_datos": "⚠️ {}: no data available"
+    }
+}
