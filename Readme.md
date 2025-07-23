@@ -74,3 +74,9 @@ This project is licensed under the MIT License. Feel free to use, modify, and sh
 
 🙏 Credits
 Developed with ❤️ by [Juan]
+
+## How to Use  
+Clone the repository:  
+```bash
+git clone https://github.com/YOUR_USERNAME/crypto-prices-fees.git
+cd crypto-prices-fees
