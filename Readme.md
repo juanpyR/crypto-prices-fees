@@ -1,28 +1,23 @@
-# Crypto Prices & Withdrawal Fees Dashboard
-
+# Crypto Prices & Withdrawal Fees Dashboard  
 A Streamlit dashboard to check cryptocurrency prices and withdrawal fees on Gate.io and Binance, with multilingual support (Spanish and English).
 
-## ✨ Main Features
+✨ Main Features  
+🔍 Real-time price lookup for cryptocurrencies (e.g., ETH, USDC, TRX) against USDT on Gate.io and Binance.  
+💸 Detailed withdrawal fees by network for each coin on both exchanges.  
+🎨 Stylish presentation with logos, professionally designed and organized HTML tables.  
+🌐 Quick language switch between Spanish and English using dedicated buttons.  
+🛠 Modular, clean, and well-organized code with reusable functions.  
+🔢 Price formatting without scientific notation using the decimal library.
 
-- 🔍 Real-time price lookup for cryptocurrencies (e.g., ETH, USDC, TRX) against USDT on Gate.io and Binance.
-- 💸 Detailed withdrawal fees by network for each coin on both exchanges.
-- 🎨 Stylish presentation with logos, professionally designed and organized HTML tables.
-- 🌐 Quick language switch between Spanish and English using dedicated buttons.
-- 🛠 Modular, clean, and well-organized code with reusable functions.
-- 🔢 Price formatting without scientific notation using the decimal library.
-
-## 💻 Technologies Used
-
-- Python 3.8+
-- Streamlit
-- Requests
-- Pandas
-- Decimal (for numeric formatting)
+💻 Technologies Used  
+- Python 3.8+  
+- Streamlit  
+- Requests  
+- Pandas  
+- Decimal (for numeric formatting)  
 - HTML/CSS (for styling tables and presentation)
 
-## 📁 Project Structure
-
-```plaintext
+📁 Project Structure  
 ├── app.py
 ├── funciones.py
 ├── lang_texts.py
@@ -34,46 +29,51 @@ A Streamlit dashboard to check cryptocurrency prices and withdrawal fees on Gate
 ├── exchanges_config.py
 └── requirements.txt
 
-app.py  
+css
+Copy
+Edit
+
+**app.py**  
 Main file that runs the Streamlit app. Handles the interface, coin input, language switching, and price & fees display.
 
-funciones.py  
+**funciones.py**  
 Contains functions to consume APIs, process data, format prices, handle languages, and render styled HTML tables.
 
-lang_texts.py  
+**lang_texts.py**  
 Dictionary with translated texts for Spanish and English used throughout the app.
 
-app_core.py
+**app_core.py**  
 Core of the application coordinating modules.
 
-crypto_handler.py
+**crypto_handler.py**  
 Module responsible for fetching prices and fees from APIs.
 
-exchange_manager.py
+**exchange_manager.py**  
 Manages fetching and unifying data from exchanges.
 
-display_handler.py
+**display_handler.py**  
 Handles rendering visual elements in Streamlit.
 
-language_handler.py
+**language_handler.py**  
 Module for language management.
 
-requirements.txt
+**requirements.txt**  
 List of dependencies to install.
 
-exchanges_config.py
+**exchanges_config.py**  
 Information of exchanges
 
-✅ Requirements
-Python 3.8 or higher
+✅ Requirements  
+- Python 3.8 or higher  
+- Internet connection (to fetch prices and fees from APIs)
 
-Internet connection (to fetch prices and fees from APIs)
-
-📄 License
+📄 License  
 This project is licensed under the MIT License. Feel free to use, modify, and share it freely.
 
-🙏 Credits
+🙏 Credits  
 Developed with ❤️ by [Juan]
+
+---
 
 ## How to Use  
 Clone the repository:  
