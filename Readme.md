@@ -1,21 +1,25 @@
-# Crypto Prices & Withdrawal Fees Dashboard  
+# 💱 Crypto Prices & Withdrawal Fees Dashboard
+
 A Streamlit dashboard to check cryptocurrency prices and withdrawal fees on Gate.io and Binance, with multilingual support (Spanish and English).
 
-✨ Main Features  
-🔍 Real-time price lookup for cryptocurrencies (e.g., ETH, USDC, TRX) against USDT on Gate.io and Binance.  
-💸 Detailed withdrawal fees by network for each coin on both exchanges.  
-🎨 Stylish presentation with logos, professionally designed and organized HTML tables.  
-🌐 Quick language switch between Spanish and English using dedicated buttons.  
-🛠 Modular, clean, and well-organized code with reusable functions.  
-🔢 Price formatting without scientific notation using the decimal library.
+## 🚀 Key Features
 
-💻 Technologies Used  
-- Python 3.8+  
-- Streamlit  
-- Requests  
-- Pandas  
-- Decimal (for numeric formatting)  
-- HTML/CSS (for styling tables and presentation)
+- 🔍 Real-time price lookup for cryptocurrencies (e.g., ETH, USDC, TRX) against USDT on Gate.io and Binance.
+- 💸 Detailed withdrawal fees by network for each coin on both exchanges.
+- 🎨 Stylish presentation with logos, professionally designed and organized HTML tables.
+- 🌐 Quick language switch between Spanish and English using dedicated buttons.
+- 🛠 Modular, clean, and well-organized code with reusable functions.
+- 🔢 Price formatting without scientific notation using the decimal library.
+
+## 📦 Requirements
+
+- Python 3.8 or higher
+- Internet connection (to fetch prices and fees from APIs)
+
+To install dependencies:
+
+```bash
+pip install -r requirements.txt
 
 📁 Project Structure  
 ```
@@ -62,20 +66,40 @@ List of dependencies to install.
 **exchanges_config.py**  
 Information of exchanges
 
-✅ Requirements  
-- Python 3.8 or higher  
-- Internet connection (to fetch prices and fees from APIs)
+## ▶️ How to Run
 
-📄 License  
-This project is licensed under the MIT License. Feel free to use, modify, and share it freely.
+1. Clone this repository:
 
-🙏 Credits  
-Developed with ❤️ by [Juan]
-
----
-
-## How to Use  
-Clone the repository:  
 ```bash
-git clone https://github.com/YOUR_USERNAME/crypto-prices-fees.git
+git clone https://github.com/juanpyR/crypto-prices-fees.git
 cd crypto-prices-fees
+
+2. Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+3. Run the app:
+
+```
+streamlit run app.py
+```
+4. The app will open automatically at `http://localhost:8501` (or another available port) in your browser.
+
+## 🖼 Screenshots
+
+### 🔎 Search Panel
+![Search](https://raw.githubusercontent.com/juanpyR/crypto-prices-fees/main/images/search.png)
+
+### 💸 Withdrawal Fees
+![Fees](https://raw.githubusercontent.com/juanpyR/crypto-prices-fees/main/images/fees.png)
+
+### 🙏 Donation Prompt
+![Donation](https://raw.githubusercontent.com/juanpyR/crypto-prices-fees/main/images/donation.png)
+
+## 🤝 Contributions
+Contributions are welcome! If you find bugs or have ideas, please open an issue or submit a pull request.
+
+## 📄 License
+MIT License – you're free to use, modify, and distribute this project.
