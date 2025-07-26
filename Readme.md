@@ -87,6 +87,7 @@ streamlit run app.py
 ```
 4. The app will open automatically at `http://localhost:8501` (or another available port) in your browser.
 
+---
 ## 🖼 Screenshots
 
 ### 🔎 Search Panel
