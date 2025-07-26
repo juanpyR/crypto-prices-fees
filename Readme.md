@@ -20,6 +20,7 @@ To install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
 📁 Project Structure  
 ```
@@ -73,6 +74,7 @@ Information of exchanges
 ```bash
 git clone https://github.com/juanpyR/crypto-prices-fees.git
 cd crypto-prices-fees
+```
 
 2. Install dependencies:
 
