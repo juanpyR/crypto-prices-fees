@@ -2,14 +2,24 @@ EXCHANGES_CONFIG = {
     "gate": {
         "logo_url": "https://images.seeklogo.com/logo-png/61/1/gate-io-icon-logo-png_seeklogo-617830.png",
         "fees": {
-            "url": "https://www.gate.com/api/web/v1/withdraw/depositwithdraw/getCoinsDepositWithdrawFee",
+            "url": "https://www.gate.com/api/web/v1/withdraw/depositwithdraw/getCoinsDepositWithdrawFee?",
             "params_key": "keyword",
             "extract_list_path": ["data", "list"],
             "coin_key": "coin",
             "chains_key": "chains",
             "chain_name_key": "chain",
             "fee_key": "withdraw_txfee",
-            "filter_fn": lambda chain: True
+            "filter_fn": lambda chain: True,
+            "headers": {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                              "AppleWebKit/537.36 (KHTML, like Gecko) "
+                              "Chrome/116.0.0.0 Safari/537.36",
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Referer": "https://www.gate.com/",
+                "Origin": "https://www.gate.com",
+                "Connection": "keep-alive"
+            }
         },
         "prices": {
             "url": "https://api.gateio.ws/api/v4/spot/tickers",
